@@ -17,5 +17,7 @@ jobs:
         
     - name: Install Mocha and package for tests
       run: |
+        cd src
+        npm install -g mocha
         npm install
     
