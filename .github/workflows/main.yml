@@ -15,7 +15,7 @@ jobs:
       with:
         node-version: 16.15.1
         
-    - name: Install Mocha for tests
+    - name: Install Mocha and package for tests
       run: |
         cd src;
         npm install -g mocha;
